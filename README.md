@@ -1,33 +1,70 @@
-# Supriya Ojha — Portfolio
+# Supriya Ojha Portfolio
 
-Modern responsive portfolio built with React, Vite, Framer Motion and Lucide React.
+A modern cyber-inspired portfolio built with React and Vite.
 
-## Run locally
+## Tech Stack
+
+- React
+- Vite
+- Framer Motion
+- Lucide React
+
+## Features
+
+- Dark neon cyber aesthetic
+- Responsive personal portfolio layout
+- Animated hero, skills, and project cards
+- About, experience, projects, and contact sections
+- Resume download link
+- Social links and smooth in-page navigation
+
+## Getting Started
+
+### Install dependencies
 
 ```bash
 npm install
+```
+
+### Run locally
+
+```bash
 npm run dev
 ```
 
-Then open the local Vite URL.
-
-## Build
+### Build for production
 
 ```bash
 npm run build
 ```
 
+## Project Structure
+
+```bash
+src/
+  main.jsx
+  styles.css
+public/
+  Supriya_Ojha_Resume.pdf
+  me.jpg
+```
+
 ## Customize
 
-Update `src/main.jsx` for:
-- Email
-- LinkedIn
-- Project links
-- Experience
-- About text
+Update the content in `src/main.jsx` for:
+- Bio and intro text
+- Skills and technologies
+- Project details
+- Experience entries
+- Contact links
+- Resume path
 
-The portfolio is responsive and includes dark/light mode, smooth navigation and animated project/skill cards.
+## Deployment
 
-## Deploy
+Push the repo to GitHub and deploy with Vercel, Netlify, or any static hosting platform that supports Vite.
 
-Push the project to GitHub and import the repository into Vercel. Vercel will detect Vite automatically.
+## Contact
+
+- Email: supriyaojhaa@gmail.com
+- GitHub: https://github.com/Supriyaojhaa
+- LinkedIn: https://www.linkedin.com/in/supriyaojha04
