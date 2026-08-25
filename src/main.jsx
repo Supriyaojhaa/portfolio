@@ -34,6 +34,14 @@ const projects = [
     demo: "https://mtfprotype.vercel.app/",
   },
   {
+  title: "MindMend",
+  type: "FULL-STACK WEB APPLICATION",
+  desc: "A full-stack mental wellness platform featuring mood tracking, therapist discovery, appointment management, self-help resources, user authentication, and an AI-powered support chatbot.",
+  tags: ["React", "Node.js", "Express", "REST API", "JWT"],
+  github: "https://github.com/Supriyaojhaa/MindMend",
+  demo: "https://mind-mend-eight.vercel.app/",
+  },
+  {
     title: "Vows & Vision",
     type: "FULL-STACK WEB APPLICATION",
     desc: "Wedding planning platform connecting users with vendors for photography, catering, decor, makeup, venues and more.",
@@ -49,14 +57,7 @@ const projects = [
     github: "#",
     demo: "#",
   },
-  {
-    title: "ModernWoods",
-    type: "FRONTEND / E-COMMERCE",
-    desc: "Modern furniture shopping experience with product discovery, cart, wishlist and responsive UI.",
-    tags: ["React", "Tailwind CSS", "JavaScript"],
-    github: "#",
-    demo: "#",
-  },
+  
 ];
 
 const skills = [
