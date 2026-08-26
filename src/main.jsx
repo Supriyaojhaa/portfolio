@@ -396,12 +396,12 @@ function App() {
             >
 
               <div className="stat">
-                <strong>8.9</strong>
+                <strong>8.3</strong>
                 <span>CGPA</span>
               </div>
 
               <div className="stat">
-                <strong>4+</strong>
+                <strong>5+</strong>
                 <span>PROJECTS</span>
               </div>
 
@@ -411,7 +411,7 @@ function App() {
               </div>
 
               <div className="stat">
-                <strong>6M+</strong>
+                <strong>6Months+</strong>
                 <span>EXPERIENCE</span>
               </div>
 
@@ -658,7 +658,7 @@ function App() {
 
           <div className="section-heading">
             <span>04 /</span>
-            <h2>SELECTED PROJECTS</h2>
+            <h2>PROJECTS</h2>
           </div>
 
           <div className="projects-grid">

@@ -184,9 +184,13 @@ a {
 /* ================= NAVBAR ================= */
 
 .navbar {
-  position: sticky;
+  position: fixed;
 
   top: 0;
+
+  left: 0;
+
+  right: 0;
 
   height: 78px;
 
@@ -200,6 +204,10 @@ a {
     rgba(2, 6, 10, 0.85);
 
   backdrop-filter: blur(18px);
+}
+
+main {
+  padding-top: 78px;
 }
 
 .nav-inner {
@@ -241,6 +249,8 @@ a {
   align-items: center;
 
   gap: 30px;
+
+  margin-left: auto;
 }
 
 .nav-links button {
@@ -1833,6 +1843,10 @@ footer {
 
   .navbar {
     height: 68px;
+  }
+
+  main {
+    padding-top: 68px;
   }
 
   .nav-links {
